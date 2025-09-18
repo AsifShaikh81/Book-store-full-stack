@@ -1,0 +1,74 @@
+.home-container {
+  max-width: 600px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Form styling */
+.book-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 30px;
+}
+
+.book-form label {
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.book-form input {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.home-btn{
+  background-color: #282c34;
+  color: white;
+  padding:12px ;
+  border-radius: 15px;
+}
+
+/* Table styling */
+.book-table {
+  width: 100%;
+  border-collapse: separate; /* separate kar diya for spacing */
+  border-spacing: 0 10px; /* row gap */
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.book-table th,
+.book-table td {
+  border: 1px solid #ddd;
+  padding: 14px 16px; /* thoda bada padding */
+  text-align: left;
+}
+
+.book-table th {
+  background-color: #282c34;
+  color: white;
+  font-size: 16px;
+}
+
+.book-table tr {
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* row ko thoda card jaisa */
+}
+
+.book-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.book-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Actions column thoda center aligned */
+.book-table td:last-child {
+  text-align: center;
+  width: 120px; /* actions column ke liye space */
+}
